@@ -10,7 +10,10 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/footer.css">
-    <!-- Link Script -->
+
+     <!-- Link JS -->
+     <script src="script/home.js"></script>
+
 
 </head>
 <body>
@@ -18,10 +21,80 @@
     <%- include('layouts/nav') %> 
     
     <div class="container">
+        <div class="sideLeft">
+            <h3>Top Anime</h3>
+            <table>
+              <tr class="space">
+                <td>1. <img src="https://cdn.myanimelist.net/images/anime/1160/122627.jpg" width="50" length="70"></td>
+                <td><span style="font-size:12px; font-weight: bold";>Kaguya-sama Wa Kokurasetai:<br> Ultra Romantic</span><br>&#9733;<span style="color:rgb(177, 16, 16)">:9.16 </span></td>
+              </tr>
+              <tr class="space">
+                <td>2. <img src="https://cdn.myanimelist.net/images/anime/1223/96541.jpg" width="50" length="70"></td>
+                <td><span style="font-weight:bold">Fullmetal Alchemist:<br>Brotherhood</span><br>&#9733;<span style="color:rgb(177, 16, 16)">:9.14</span></td>
+              </tr>
+              <tr class="space">
+                <td>3. <img src="https://cdn.myanimelist.net/images/anime/3/72078.jpg" width="50" length="70"></td>
+                <td><span style="font-weight:bold">Gintama°</span><br>&#9733;<span style="color:rgb(177, 16, 16)">:9.08</span></td>
+              </tr>
+              <tr class="space">
+                <td>4. <img src="https://cdn.myanimelist.net/images/anime/5/73199.jpg" width="50" length="70"></td>
+                <td><span style="font-weight:bold">Steins;Gate</span><br>&#9733;<span style="color:rgb(177, 16, 16)">:9.08</span></td>
+              </tr>
+              <tr class="space">
+                <td>5. <img src="https://cdn.myanimelist.net/images/anime/1517/100633.jpg" width="50" length="70"></td>
+                <td><span style="font-weight:bold">SnK S2 Part 2</span><br>&#9733;<span style="color:rgb(177, 16, 16)">:9.07</span></td>
+              </tr>
+            </table>
+        </div>
         <div class="article">
-    
+            <h2>News</h2>
+            <div class="box-article">
+                <div id="slideshow-container">
+                    
+                    <a class="prev" onclick="plusSlides(-1)">❮</a>
+                    <a class="next" onclick="plusSlides(1)">❯</a>
+                    
+                </div>
+                <br>
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span> 
+                    <span class="dot" onclick="currentSlide(2)"></span> 
+                    <span class="dot" onclick="currentSlide(3)"></span> 
+                </div>
+            </div>
+            
+            <div class="box2">
+                
+            </div>
+        </div>
+        <div class="sideRight">
+            <h3>Upcoming Anime</h3>
+            <table>
+              <tr class="space2">
+                <td>1. <img src="https://cdn.myanimelist.net/images/anime/1632/110707.jpg" width="50" length="70"></td>
+                <td><span style="font-weight: bold";>Chainsaw Man</span><br>&#9733;<span style="color:rgb(177, 16, 16)">:N/A</span></td>
+              </tr>
+              <tr class="space2">
+                <td>2. <img src="https://cdn.myanimelist.net/images/anime/1502/124354.jpg" width="50" length="70"></td>
+                <td><span style="font-weight:bold">Hataraku Maou Sama!</span><br>&#9733;<span style="color:rgb(177, 16, 16)">:N/A</span></td>
+              </tr>
+              <tr class="space2">
+                <td>3. <img src="https://cdn.myanimelist.net/images/anime/1070/124592.jpg" width="50" length="70"></td>
+                <td><span style="font-weight:bold">Kanojo, Okarishimasu</span><br>&#9733;<span style="color:rgb(177, 16, 16)">:N/A</span></td>
+              </tr>
+              <tr class="space2">
+                <td>4. <img src="https://cdn.myanimelist.net/images/anime/1530/120110.jpg" width="50" length="70"></td>
+                <td><span style="font-weight:bold">Overlord IV</span><br>&#9733;<span style="color:rgb(177, 16, 16)">:N/A</span></td>
+              </tr>
+              <tr class="space2">
+                <td>5. <img src="https://cdn.myanimelist.net/images/anime/1045/123711.jpg" width="50" length="70"></td>
+                <td><span style="font-weight:bold">Yofukashi no Uta</span><br>&#9733;<span style="color:rgb(177, 16, 16)">:N/A</span></td>
+              </tr>
+            </table>
         </div>
     </div>
-    <%- include('layouts/footer') %> 
+    <%- include('layouts/footer') %>
+    
+   
 </body>
 </html>
