@@ -4,8 +4,6 @@ async function createCardAnime() {
     return data.json()
   })
 
-  console.log(dataAnime)
-
   for (let i = 0; i < dataAnime.length; i++) {
     let card = document.createElement('div')
     card.classList.add('card-anime')
@@ -32,4 +30,22 @@ async function createCardAnime() {
   }
 }
 
+async function createContentLeft() {
+  let allbox = document.getElementById('content-left')
+  let dataAnime = await fetch('data/top-manga.json').then((data) => {
+    return data.json()
+  })
+
+  for (let i = 0; i < 3; i++) {
+    let card = document.createElement('div')
+    card.classList.add('content')
+    card.innerHTML = `
+    <img src='${dataAnime[i].image}'>
+    <div>${dataAnime[i].title}</div>     
+        `
+    allbox.appendChild(card)
+  }
+}
+
 createCardAnime()
+createContentLeft()
