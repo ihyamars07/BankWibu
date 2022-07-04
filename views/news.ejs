@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Japan Culture</title>
+    <!-- LINK CSS -->
+    <link rel="stylesheet" href="css/news.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <!-- Link Script -->
+   
+</head>
+<body>
+    <%- include('layouts/header') %> 
+    <%- include('layouts/nav') %> 
+    <div class="container">
+        <div class="article">
+            <h2>Japan News</h2>
+            <div id="all-box"></div>
+        </div>
+        <div class="aside">
+            <h3>Trending</h3>
+            <div id="list-trending"></div>
+        </div>
+    </div>
+    <%- include('layouts/footer') %> 
+    <script src="script/news.js"></script>
+</body>
+</html>

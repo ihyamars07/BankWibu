@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <style>
+        input[type="submit"]{
+            cursor: pointer;
+        }
+    </style>
+    <link rel="stylesheet" href="css/login.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="title">
+            Log in
+        </div>
+        <form action="#">
+            <div class="field">
+                <input type="text" required>
+                <label>Masukan Email</label>
+            </div>
+            <div class="field">
+                <input type="password" required>
+                <label>Masukan Password</label>
+            </div>
+            <div class="content">
+                <div class="container">
+                    <div>
+                        <input type="checkbox" id="ingatkan-saya">
+                    <label for="ingatkan-saya">Ingatkan saya</label>
+                    </div>
+
+                    <div class="pass-link">
+                        <a href="#"> Lupa Password?</a>
+                    </div>
+                </div>
+            
+            </div>
+            <div class="field">
+                <input type="submit" value="Login">
+            </div>
+            <div class="signup-link">
+                Belum menjadi anggota?<a href="#"> Register Now</a>
+            </div>
+        </form>
+    </div>
+</body>
+</html>

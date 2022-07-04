@@ -1,0 +1,402 @@
+[
+   {
+      "id":1,
+      "image":"https://cdn.myanimelist.net/images/manga/1/157897.jpg",
+      "title":"Berserk",
+      "score":"9.45",
+      "date":"Aug 25, 1989",
+      "author":"Kentaro Miura"
+   },
+   {
+      "id":2,
+      "image":"https://cdn.myanimelist.net/images/manga/3/179882.jpg",
+      "title":"JoJo Part 7: Steel Ball Run",
+      "score":"9.27",
+      "date":"Jan 19, 2004 to Apr 19, 2011",
+      "author":"Araki Hirohiko"
+   },
+   {
+      "id":3,
+      "image":"https://cdn.myanimelist.net/images/manga/2/253146.jpg",
+      "title":"One Piece",
+      "score":"9.19",
+      "date":"Jul 22, 1997",
+      "author":"Oda Eiichiro"
+   },
+   {
+      "id":4,
+      "image":"https://cdn.myanimelist.net/images/manga/1/259070.jpg",
+      "title":"Vagabond",
+      "score":"9.16",
+      "date":"Sep 3, 1998 to May 21, 2015",
+      "author":"Inoue Takehiko"
+   },
+   {
+      "id":5,
+      "image":"https://cdn.myanimelist.net/images/manga/3/258224.jpg",
+      "title":"Monster",
+      "score":"9.10",
+      "date":"Dec 5, 1994 to Dec 20, 2001",
+      "author":"Urasawa Naoki"
+   },
+   {
+      "id":6,
+      "image":"https://cdn.myanimelist.net/images/manga/3/243675.jpg",
+      "title":"Fullmetal Alchemist",
+      "score":"9.06",
+      "date":"Jul 12, 2001 to Sep 11, 2010",
+      "author":"Arakawa Hiromu"
+   },
+   {
+      "id":7,
+      "image":"https://cdn.myanimelist.net/images/manga/2/258749.jpg",
+      "title":"Slam Dunk",
+      "score":"9.05",
+      "date":"Sep 18, 1990 to Jun 4, 1996",
+      "author":"Inoue Takehiko"
+   },
+   {
+      "id":8,
+      "image":"https://cdn.myanimelist.net/images/manga/2/166124.jpg",
+      "title":"Grand Blue",
+      "score":"9.04",
+      "date":"Apr 7, 2014",
+      "author":"Inoue Kenji"
+   },
+   {
+      "id":9,
+      "image":"https://cdn.myanimelist.net/images/manga/3/164420.jpg",
+      "title":"Oyasumi Punpun",
+      "score":"9.03",
+      "date":"Mar 15, 2007 to Nov 2, 2013",
+      "author":"Asano Inio"
+   },
+   {
+      "id":10,
+      "image":"https://cdn.myanimelist.net/images/manga/2/188925.jpg",
+      "title":"Vinland Saga",
+      "score":"8.99",
+      "date":"Apr 2005",
+      "author":"Yukimura Makoto"
+   },
+   {
+      "id":11,
+      "image":"https://cdn.myanimelist.net/images/manga/2/171872.jpg",
+      "title":"Kingdom",
+      "score":"8.98",
+      "date":"Jan 26, 2006",
+      "author":"Hara Yasuhisa"
+   },
+   {
+      "id":12,
+      "image":"https://cdn.myanimelist.net/images/manga/5/260006.jpg",
+      "title":"20th Century Boys",
+      "score":"8.95",
+      "date":"Sep 27, 1999 to Apr 24, 2006",
+      "author":"Urasawa Naoki"
+   },
+   {
+      "id":13,
+      "image":"https://cdn.myanimelist.net/images/manga/4/75029.jpg",
+      "title":"Ashita no Joe",
+      "score":"8.95",
+      "date":"Jan 1, 1968 to May 13, 1973",
+      "author":"Kajiwara Ikki"
+   },
+   {
+      "id":14,
+      "image":"https://cdn.myanimelist.net/images/manga/5/173535.jpg",
+      "title":"Monogatari Series: First Season",
+      "score":"8.95",
+      "date":"Nov 1, 2006 to Jul 28, 2010",
+      "author":"NISIO, ISIN"
+   },
+   {
+      "id":15,
+      "image":"https://cdn.myanimelist.net/images/manga/1/115443.jpg",
+      "title":"Houseki no Kuni",
+      "score":"8.95",
+      "date":"Oct 25, 2012",
+      "author":"Ichikawa Haruko"
+   },
+   {
+      "id":16,
+      "image":"https://cdn.myanimelist.net/images/manga/3/188896.jpg",
+      "title":"Kaguya-sama wa Kokurasetai",
+      "score":"8.92",
+      "date":"May 19, 2015",
+      "author":"Akasaka Aka"
+   },
+   {
+      "id":17,
+      "image":"https://cdn.myanimelist.net/images/manga/2/177958.jpg",
+      "title":"Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e",
+      "score":"8.91",
+      "date":"May 25, 2015 to Sep 25, 2019",
+      "author":"Kinugasa Shougo"
+   },
+   {
+      "id":18,
+      "image":"https://cdn.myanimelist.net/images/manga/2/181553.jpg",
+      "title":"Monogatari Series: Second Season",
+      "score":"8.91",
+      "date":"Oct 27, 2010 to Dec 20, 2011",
+      "author":"NISIO, ISIN"
+   },
+   {
+      "id":19,
+      "image":"https://cdn.myanimelist.net/images/manga/3/235363.jpg",
+      "title":"Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e: 2-nensei-hen",
+      "score":"8.91",
+      "date":"Jan 24, 2020",
+      "author":"Kinugasa Shougo"
+   },
+   {
+      "id":20,
+      "image":"https://cdn.myanimelist.net/images/manga/3/248674.jpg",
+      "title":"Mikkakan no Koufuku",
+      "score":"8.91",
+      "date":"Dec 25, 2013",
+      "author":"Miaki Sugaru"
+   },
+   {
+      "id":21,
+      "image":"https://cdn.myanimelist.net/images/manga/2/52283.jpg",
+      "title":"3-gatsu no Lion",
+      "score":"8.90",
+      "date":"Jul 13, 2007",
+      "author":"Umino Chika"
+   },
+   {
+      "id":22,
+      "image":"https://cdn.myanimelist.net/images/manga/2/172982.jpg",
+      "title":"GTO",
+      "score":"8.89",
+      "date":"Dec 11, 1996 to Jan 30, 2002",
+      "author":"Fujisawa, Tooru"
+   },
+   {
+      "id":23,
+      "image":"https://cdn.myanimelist.net/images/manga/2/115969.jpg",
+      "title":"Real",
+      "score":"8.89",
+      "date":"1999",
+      "author":"Inoue, Takehiko"
+   },
+   {
+      "id":24,
+      "image":"https://cdn.myanimelist.net/images/manga/5/259524.jpg",
+      "title":"Yotsuba to!",
+      "score":"8.87",
+      "date":"Mar 21, 2003",
+      "author":"Azuma Kiyohiko"
+   },
+   {
+      "id":25,
+      "image":"https://cdn.myanimelist.net/images/manga/1/120529.jpg",
+      "title":"Koe no Katachi",
+      "score":"8.86",
+      "date":"Aug 7, 2013 to Nov 19, 2014",
+      "author":"Ooima Yoshitoki"
+   },
+   {
+      "id":26,
+      "image":"https://cdn.myanimelist.net/images/manga/2/258225.jpg",
+      "title":"Haikyuu!!",
+      "score":"8.84",
+      "date":"Feb 20, 2012 to Jul 20, 2020",
+      "author":"Furudate Haruichi"
+   },
+   {
+      "id":27,
+      "image":"https://cdn.myanimelist.net/images/manga/2/153860.jpg",
+      "title":"Ookami to Koushinryou",
+      "score":"8.84",
+      "date":"Feb 10, 2006",
+      "author":"Hasekura Isuna"
+   },
+   {
+      "id":28,
+      "image":"https://cdn.myanimelist.net/images/manga/3/259856.jpg",
+      "title":"Kaze no Tani no Nausicaä",
+      "score":"8.83",
+      "date":"Oct 9, 1982 to Feb 10, 1994",
+      "author":"Miyazaki Hayao"
+   },
+   {
+      "id":29,
+      "image":"https://cdn.myanimelist.net/images/manga/3/153249.jpg",
+      "title":"Akatsuki no Yona",
+      "score":"8.83",
+      "date":"Aug 5, 2009",
+      "author":"Kusanagi Mizuho"
+   },
+   {
+      "id":30,
+      "image":"https://cdn.myanimelist.net/images/manga/1/181554.jpg",
+      "title":"Monogatari Series: Final Season",
+      "score":"8.83",
+      "date":"Sep 28, 2012 to Sep 18, 2014",
+      "author":"NISIO, ISIN"
+   },
+   {
+      "id":31,
+      "image":"https://cdn.myanimelist.net/images/manga/3/164420.jpg",
+      "title":"Umineko no Naku Koro ni Chiru - Episode 8",
+      "score":"8.81",
+      "date":"Jan 21, 2012 to Jun 22, 2015",
+      "author":"Ryukishi07"
+   },
+   {
+      "id":32,
+      "image":"https://cdn.myanimelist.net/images/manga/5/260043.jpg",
+      "title":"Jumyou wo Kaitotte Moratta. Ichinen ni Tsuki, Ichimanen de.",
+      "score":"8.80",
+      "date":"Aug 10, 2016 to Oct 25, 2017",
+      "author":"Taguchi Shouichi"
+   },
+   {
+      "id":33,
+      "image":"https://cdn.myanimelist.net/images/manga/3/194315.jpg",
+      "title":"86",
+      "score":"8.80",
+      "date":"Feb 10, 2017",
+      "author":"Asato"
+   },
+   {
+      "id":34,
+      "image":"https://cdn.myanimelist.net/images/manga/1/122461.jpg",
+      "title":"Yahari Ore no Seishun Love Comedy wa Machigatteiru.",
+      "score":"8.79",
+      "date":"Mar 18, 2011 to Apr 20, 2021",
+      "author":"Watari Wataru"
+   },
+   {
+      "id":35,
+      "image":"https://cdn.myanimelist.net/images/manga/1/129447.jpg",
+      "title":"Re:Zero kara Hajimeru Isekai Seikatsu",
+      "score":"8.79",
+      "date":"Jan 23, 2014",
+      "author":"Nagatsuki Tappei"
+   },
+   {
+      "id":36,
+      "image":"https://cdn.myanimelist.net/images/manga/3/166256.jpg",
+      "title":"Uchuu Kyoudai",
+      "score":"8.79",
+      "date":"Dec 6, 2007",
+      "author":"Koyama Chuuya"
+   },
+   {
+      "id":37,
+      "image":"https://cdn.myanimelist.net/images/manga/3/161645.jpg",
+      "title":"Made in Abyss",
+      "score":"8.78",
+      "date":"Oct 20, 2012",
+      "author":"Tsukushi Akihito"
+   },
+   {
+      "id":38,
+      "image":"https://cdn.myanimelist.net/images/manga/1/262324.jpg",
+      "title":"Nana",
+      "score":"8.76",
+      "date":"May 26, 2000 to May 26, 2009",
+      "author":"Yazawa Ai"
+   },
+   {
+      "id":39,
+      "image":"https://cdn.myanimelist.net/images/manga/2/175662.jpg",
+      "title":"Utsuro no Hako to Zero no Maria",
+      "score":"8.75",
+      "date":"Jan 10, 2009 to Jun 10, 2015",
+      "author":"Mikage Eiji"
+   },
+   {
+      "id":40,
+      "image":"https://cdn.myanimelist.net/images/manga/3/120337.jpg",
+      "title":"Mushoku Tensei: Isekai Ittara Honki Dasu",
+      "score":"8.75",
+      "date":"Jan 23, 2014",
+      "author":"Rifujin na Magonote"
+   },
+   {
+      "id":41,
+      "image":"https://cdn.myanimelist.net/images/manga/3/80661.jpg",
+      "title":"One Punch-Man",
+      "score":"8.74",
+      "date":"Jun 14, 2012",
+      "author":"ONE"
+   },
+   {
+      "id":42,
+      "image":"https://cdn.myanimelist.net/images/manga/2/159514.jpg",
+      "title":"Mushishi",
+      "score":"8.74",
+      "date":"Nov 1999 to Aug 25, 2008",
+      "author":"Urushibara Yuki"
+   },
+   {
+      "id":43,
+      "image":"https://cdn.myanimelist.net/images/manga/3/258316.jpg",
+      "title":"Sayonara Eri",
+      "score":"8.74",
+      "date":"Apr 11, 2022",
+      "author":"Fujimoto Tatsuki"
+   },
+   {
+      "id":44,
+      "image":"https://cdn.myanimelist.net/images/manga/3/216464.jpg",
+      "title":"Chainsaw Man",
+      "score":"8.72",
+      "date":"Dec 3, 2018 to Dec 14, 2020",
+      "author":"Fujimoto Tatsuki"
+   },
+   {
+      "id":45,
+      "image":"https://cdn.myanimelist.net/images/manga/3/222295.jpg",
+      "title":"Solo Leveling",
+      "score":"8.72",
+      "date":"Mar 4, 2018 to Dec 29, 2021",
+      "author":"Chugong"
+   },
+   {
+      "id":46,
+      "image":"https://cdn.myanimelist.net/images/manga/1/229331.jpg",
+      "title":"The Horizon",
+      "score":"8.71",
+      "date":"Mar 30, 2016 to Jul 21, 2016",
+      "author":"Jeong Ji-Hoon"
+   },
+   {
+      "id":47,
+      "image":"https://cdn.myanimelist.net/images/manga/2/204827.jpg",
+      "title":"Blue Period",
+      "score":"8.71",
+      "date":"Jun 24, 2017",
+      "author":"Yamaguchi, Tsubasa"
+   },
+   {
+      "id":48,
+      "image":"https://cdn.myanimelist.net/images/manga/1/171813.jpg",
+      "title":"Yokohama Kaidashi Kikou",
+      "score":"8.71",
+      "date":"Apr 25, 1994 to Feb 25, 2006",
+      "author":"Ashinano Hitoshi"
+   },
+   {
+      "id":49,
+      "image":"https://cdn.myanimelist.net/images/manga/1/258245.jpg",
+      "title":"Death Note",
+      "score":"8.71",
+      "date":"Dec 1, 2003 to May 15, 2006",
+      "author":"Ohba Tsugumi"
+   },
+   {
+      "id":50,
+      "image":"https://cdn.myanimelist.net/images/manga/3/260099.jpg",
+      "title":"Natsume Yuujinchou",
+      "score":"8.71",
+      "date":"Jun 10, 2003",
+      "author":"Midorikawa Yuki"
+   }
+]

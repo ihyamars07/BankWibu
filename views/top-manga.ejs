@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top Manga</title>
+    <!-- LINK CSS -->
+    <link rel="stylesheet" href="css/top-manga.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <%- include('layouts/header') %> 
+    <%- include('layouts/nav') %> 
+    
+    <div class="container">
+        <div class="sideLeft" id="left">
+            <h3>J-Culture</h3>
+            <div>
+                <div class="content_img">
+                    <img src='img/marcel.jpg' width='100%' height='100%'>
+                    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>    
+                </div>
+
+                <div class="content_img">
+                    <img src='img/mario.jfif' width='100%' height='100%'>
+                    <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. </div>
+                </div>
+            </div>
+        </div>
+        <div id="mainleft">
+            <button class="open-btn-left" onclick="toggleNavLeft()">
+                <span class="material-symbols-outlined">
+                    chevron_right
+                </span>
+            </button>
+        </div>
+        <div class="article">
+            <h2>Top Manga</h2>
+            <div id="all-box-manga"></div> 
+        </div>
+    </div>
+    <%- include('layouts/footer') %>  
+
+    <!-- Link Script -->
+    <script src="script/collapsable.js"></script>
+    <script src="script/top-manga.js"></script>
+</body>
+</html>

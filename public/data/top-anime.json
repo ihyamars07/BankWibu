@@ -1,0 +1,502 @@
+[
+    {
+       "id":1,
+       "image":"https://cdn.myanimelist.net/images/anime/1160/122627.jpg",
+       "title":"Kaguya-sama Wa Kokurasetai: Ultra Romantic",
+       "score":"9.16",
+       "date":"Apr 2022 - Jun 2022",
+       "studio":"A-1 Pictures",
+       "episode":"13",
+       "tipe":"TV"
+    },
+    {
+       "id":2,
+       "image":"https://cdn.myanimelist.net/images/anime/1223/96541.jpg",
+       "title":"Fullmetal Alchemist: Brotherhood",
+       "score":"9.14",
+       "date":"Apr 2009 - Jul 2010",
+       "studio":"Bones",
+       "episode":"64",
+       "tipe":"TV"
+    },
+    {
+       "id":3,
+       "image":"https://cdn.myanimelist.net/images/anime/3/72078.jpg",
+       "title":"Gintama°",
+       "score":"9.08",
+       "date":"Apr 2015 - Mar 2016",
+       "studio":"Bandai Namco Pictures",
+       "episode":"51",
+       "tipe":"TV"
+    },
+    {
+       "id":4,
+       "image":"https://cdn.myanimelist.net/images/anime/5/73199.jpg",
+       "title":"Steins;Gate",
+       "score":"9.08",
+       "date":"Apr 2011 - Sep 2011",
+       "studio":"White Fox",
+       "episode":"24",
+       "tipe":"TV"
+    },
+    {
+       "id":5,
+       "image":"https://cdn.myanimelist.net/images/anime/1517/100633.jpg",
+       "title":"Shingeki no Kyojin Season 3 Part 2",
+       "score":"9.07",
+       "date":"Apr 2019 - Jul 2019",
+       "studio":"Wit Studio",
+       "episode":"10",
+       "tipe":"TV"
+    },
+    {
+       "id":6,
+       "image":"https://cdn.myanimelist.net/images/anime/4/50361.jpg",
+       "title":"Gintama'",
+       "score":"9.05",
+       "date":"Apr 2011 - Mar 2012",
+       "studio":"Sunrise",
+       "episode":"51",
+       "tipe":"TV"
+    },
+    {
+       "id":7,
+       "image":"https://cdn.myanimelist.net/images/anime/1337/99013.jpg",
+       "title":"Hunter x Hunter (2011)",
+       "score":"9.05",
+       "date":"Jul 2012 - Dec 2013",
+       "studio":"A-1 Pictures",
+       "episode":"25",
+       "tipe":"TV"
+    },
+    {
+       "id":8,
+       "image":"https://cdn.myanimelist.net/images/anime/1452/123686.jpg",
+       "title":"Gintama': Enchousen",
+       "score":"9.04",
+       "date":"Oct 2012 - Mar 2013",
+       "studio":"Sunrise",
+       "episode":"13",
+       "tipe":"TV"
+    },
+    {
+       "id":9,
+       "image":"https://cdn.myanimelist.net/images/anime/1988/113791.jpg",
+       "title":"Gintama: The Final",
+       "score":"9.04",
+       "date":"Jan 8, 2021",
+       "studio":"Bandai Namco Pictures",
+       "episode":"1",
+       "tipe":"Movie"
+    },
+    {
+       "id":10,
+       "image":"https://cdn.myanimelist.net/images/anime/1085/114792.jpg",
+       "title":"Fruit Basket: The Final",
+       "score":"9.03",
+       "date":"Apr 2021 - Jun 2021",
+       "studio":"TMS Entertainment",
+       "episode":"13",
+       "tipe":"TV"
+    },
+    {
+       "id":11,
+       "image":"https://cdn.myanimelist.net/images/anime/13/13225.jpg",
+       "title":"Ginga Eiyuu Densetsu",
+       "score":"9.03",
+       "date":"Jan 1988 - Mar 1997",
+       "studio":"Kity Film Mitaka Studio",
+       "episode":"110",
+       "tipe":"OVA"
+    },
+    {
+       "id":12,
+       "image":"https://cdn.myanimelist.net/images/anime/3/83528.jpg",
+       "title":"Gintama.",
+       "score":"8.99",
+       "date":"Jan 2017 - Mar 2017",
+       "studio":"Bandai Namco Pictures",
+       "episode":"12",
+       "tipe":"TV"
+    },
+    {
+       "id":13,
+       "image":"https://cdn.myanimelist.net/images/anime/3/88469.jpg",
+       "title":"3-gatsu no Lion 2nd Season",
+       "score":"8.95",
+       "date":"Oct 2017 - Mar 2018",
+       "studio":"Shaft",
+       "episode":"22",
+       "tipe":"TV"
+    },
+    {
+       "id":14,
+       "image":"https://cdn.myanimelist.net/images/anime/10/73274.jpg",
+       "title":"Gintama",
+       "score":"8.95",
+       "date":"Apr 2006 - Mar 2010",
+       "studio":"Sunrise",
+       "episode":"201",
+       "tipe":"TV"
+    },
+    {
+       "id":15,
+       "image":"https://cdn.myanimelist.net/images/anime/1122/96435.jpg",
+       "title":"Koe no Katachi",
+       "score":"8.95",
+       "date":"sep 17, 2016",
+       "studio":"Kyoto Animation",
+       "episode":"1",
+       "tipe":"Movie"
+    },
+    {
+       "id":16,
+       "image":"https://cdn.myanimelist.net/images/anime/1299/110774.jpg",
+       "title":"Clannad: After Story",
+       "score":"8.94",
+       "date":"Oct 2008 - Mar 2009",
+       "studio":"Kyoto Animation",
+       "episode":"24",
+       "tipe":"TV"
+    },
+    {
+       "id":17,
+       "image":"https://cdn.myanimelist.net/images/anime/1825/110716.jpg",
+       "title":"Violet Evergarden Movie",
+       "score":"8.94",
+       "date":"Sep 18, 2020",
+       "studio":"Kyoto Animation",
+       "episode":"1",
+       "tipe":"Movie"
+    },
+    {
+       "id":18,
+       "image":"https://cdn.myanimelist.net/images/anime/10/51723.jpg",
+       "title":"Gintama Movie 2: Kanketsu-hen - Yorozuya yo Eien Nare",
+       "score":"8.93",
+       "date":"Jul 6, 2013",
+       "studio":"Sunrise",
+       "episode":"1",
+       "tipe":"Movie"
+    },
+    {
+       "id":19,
+       "image":"https://cdn.myanimelist.net/images/anime/4/9391.jpg",
+       "title":"Code Geass: Hangyaku no Lelouch R2",
+       "score":"8.91",
+       "date":"Apr 2008 - Sep 2008",
+       "studio":"Sunrise",
+       "episode":"25",
+       "tipe":"TV"
+    },
+    {
+       "id":20,
+       "image":"https://cdn.myanimelist.net/images/anime/1441/122795.jpg",
+       "title":"Spy x Family",
+       "score":"8.91",
+       "date":"Apr 2022 - Jun 2022",
+       "studio":"Wit Studio, Cloverworks",
+       "episode":"12",
+       "tipe":"TV"
+    },
+    {
+       "id":21,
+       "image":"https://cdn.myanimelist.net/images/anime/6/87322.jpg",
+       "title":"Owarimonogatari 2nd Season",
+       "score":"8.90",
+       "date":"Aug 12-13, 2017",
+       "studio":"Shaft",
+       "episode":"7",
+       "tipe":"TV"
+    },
+    {
+       "id":22,
+       "image":"https://cdn.myanimelist.net/images/anime/1776/96566.jpg",
+       "title":"Gintama.: Shirogane no Tamashii-hen - Kouhan-sen",
+       "score":"8.88",
+       "date":"Jul 2018 - Oct 2018",
+       "studio":"Bandai Namco Pictures",
+       "episode":"14",
+       "tipe":"TV"
+    },
+    {
+       "id":23,
+       "image":"https://cdn.myanimelist.net/images/anime/1908/120036.jpg",
+       "title":"Kimetsu no Yaiba: Yuukaku-hen",
+       "score":"8.87",
+       "date":"Dec 2021 - Feb 2022",
+       "studio":"ufotable",
+       "episode":"11",
+       "tipe":"TV"
+    },
+    {
+       "id":24,
+       "image":"https://cdn.myanimelist.net/images/anime/5/87048.jpg",
+       "title":"Kimi no Na Wa",
+       "score":"8.86",
+       "date":"Aug 26, 2016",
+       "studio":"CoMix Wave Films",
+       "episode":"1",
+       "tipe":"Movie"
+    },
+    {
+       "id":25,
+       "image":"https://cdn.myanimelist.net/images/anime/1000/110531.jpg",
+       "title":"Shingeki no Kyojin: The Final Season",
+       "score":"8.84",
+       "date":"Dec 2020 - Mar 2021",
+       "studio":"MAPPA",
+       "episode":"16",
+       "tipe":"TV"
+    },
+    {
+       "id":26,
+       "image":"https://cdn.myanimelist.net/images/anime/10/18793.jpg",
+       "title":"Monster",
+       "score":"8.83",
+       "date":"Apr 2004 - Sep 2005",
+       "studio":"Madhouse",
+       "episode":"74",
+       "tipe":"TV"
+    },
+    {
+       "id":27,
+       "image":"https://cdn.myanimelist.net/images/anime/1948/120625.jpg",
+       "title":"Shingeki no Kyojin: The Final Season Part 2",
+       "score":"8.83",
+       "date":"Jan 2022 - Apr 2022",
+       "studio":"MAPPA",
+       "episode":"12",
+       "tipe":"TV"
+    },
+    {
+       "id":28,
+       "image":"https://cdn.myanimelist.net/images/anime/1566/122794.jpg",
+       "title":"Kingdom 4th Season",
+       "score":"8.82",
+       "date":"Apr 2022 - ?",
+       "studio":"Peirrot, Studio Singpost",
+       "episode":"26",
+       "tipe":"TV"
+    },
+    {
+       "id":29,
+       "image":"https://cdn.myanimelist.net/images/anime/12/89603.jpg",
+       "title":"Gintama.: Shirogane no Tamashii-hen",
+       "score":"8.81",
+       "date":"Jan 2018 - Mar 2018",
+       "studio":"Bandai Namco Pictures",
+       "episode":"12",
+       "tipe":"TV"
+    },
+    {
+       "id":30,
+       "image":"https://cdn.myanimelist.net/images/anime/1443/111830.jpg",
+       "title":"Kingdom 3rd Season",
+       "score":"8.81",
+       "date":"Jan 2018 - Mar 2018",
+       "studio":"Bandai Namco Pictures",
+       "episode":"12",
+       "tipe":"TV"
+    },
+    {
+       "id":31,
+       "image":"https://cdn.myanimelist.net/images/anime/1918/96303.jpg",
+       "title":"Mob Pyscho 100 II",
+       "score":"8.81",
+       "date":"Jan 2019 - Apr 2019",
+       "studio":"Bones",
+       "episode":"13",
+       "tipe":"TV"
+    },
+    {
+       "id":32,
+       "image":"https://cdn.myanimelist.net/images/anime/1084/112813.jpg",
+       "title":"Kizumonogatari III: Reikatsu-hen",
+       "score":"8.80",
+       "date":"Jan 6, 2017",
+       "studio":"Shaft",
+       "episode":"1",
+       "tipe":"Movie"
+    },
+    {
+       "id":33,
+       "image":"https://cdn.myanimelist.net/images/anime/7/81992.jpg",
+       "title":"Haikyuu!!: Karasuno Koukou vs. Shiratorizawa Gakuen Koukou",
+       "score":"8.79",
+       "date":"Oct 2016 - Dec 2016",
+       "studio":"Production I.G",
+       "episode":"10",
+       "tipe":"TV"
+    },
+    {
+       "id":34,
+       "image":"https://cdn.myanimelist.net/images/anime/1135/114867.jpg",
+       "title":"Shiguang Dailiren",
+       "score":"8.79",
+       "date":"Apr 2021 - Jul 2021",
+       "studio":"Studio LAN",
+       "episode":"11",
+       "tipe":"OVA"
+    },
+    {
+       "id":35,
+       "image":"https://cdn.myanimelist.net/images/anime/6/79597.jpg",
+       "title":"Sen to Chihiro no Kamikakushi",
+       "score":"8.78",
+       "date":"Jul 20, 2001",
+       "studio":"Studio Ghibli",
+       "episode":"1",
+       "tipe":"Movie"
+    },
+    {
+       "id":36,
+       "image":"https://cdn.myanimelist.net/images/anime/1807/121534.jpg",
+       "title":"Monogatari Series: Second Season",
+       "score":"8.77",
+       "date":"Jul 2013 - Dec 2013",
+       "studio":"Shaft",
+       "episode":"26",
+       "tipe":"TV"
+    },
+    {
+       "id":37,
+       "image":"https://cdn.myanimelist.net/images/anime/4/19644.jpg",
+       "title":"Cowboy Bebop",
+       "score":"8.76",
+       "date":"Apr 1998 - Apr 1999",
+       "studio":"Sunrise",
+       "episode":"26",
+       "tipe":"TV"
+    },
+    {
+       "id":38,
+       "image":"https://cdn.myanimelist.net/images/anime/10/82947.jpg",
+       "title":"Shouwa Genroku Rakugo Shinjuu: Sukeroku Futabi-hen",
+       "score":"8.75",
+       "date":"Jan 2017 - Mar 2017",
+       "studio":"Studio Deen",
+       "episode":"12",
+       "tipe":"TV"
+    },
+    {
+       "id":39,
+       "image":"https://cdn.myanimelist.net/images/anime/9/68095.jpg",
+       "title":"Mushishi Zoku Shou 2nd Season",
+       "score":"8.74",
+       "date":"Oct 2014 - Dec 2014",
+       "studio":"Artland",
+       "episode":"10",
+       "tipe":"TV"
+    },
+    {
+       "id":40,
+       "image":"https://cdn.myanimelist.net/images/anime/1028/117777.jpg",
+       "title":"Mushoku Tensei: Iseaki Ittara Honki Desu Part 2",
+       "score":"8.74",
+       "date":"Oct 2021 - Dec 2021",
+       "studio":"Studio Bind",
+       "episode":"12",
+       "tipe":"TV"
+    },
+    {
+       "id":41,
+       "image":"https://cdn.myanimelist.net/images/anime/1981/113348.jpg",
+       "title":"Odd Taxi",
+       "score":"8.74",
+       "date":"Apr 2021 - Jun 2021",
+       "studio":"OLM, P.I.C.S.",
+       "episode":"13",
+       "tipe":"TV"
+    },
+    {
+       "id":42,
+       "image":"https://cdn.myanimelist.net/images/anime/4/86334.jpg",
+       "title":"Hajime no Ippo",
+       "score":"8.74",
+       "date":"Oct 2000 - Mar 2002",
+       "studio":"Madhouse",
+       "episode":"75",
+       "tipe":"TV"
+    },
+    {
+       "id":43,
+       "image":"https://cdn.myanimelist.net/images/anime/1500/103005.jpg",
+       "title":"Vinaland Saga",
+       "score":"8.73",
+       "date":"Jul 2019 - Dec 2019",
+       "studio":"Wit Studio",
+       "episode":"24",
+       "tipe":"TV"
+    },
+    {
+       "id":44,
+       "image":"https://cdn.myanimelist.net/images/anime/1391/120839.jpg",
+       "title":"Rurouni Kenshin: Meiji Kenakaku Romantan - Tsuioku-hen",
+       "score":"8.71",
+       "date":"Feb 1999 - Sep 1999",
+       "studio":"Studio Deen",
+       "episode":"4",
+       "tipe":"OVA"
+    },
+    {
+       "id":45,
+       "image":"https://cdn.myanimelist.net/images/anime/1321/117508.jpg",
+       "title":"86 Part 2",
+       "score":"8.71",
+       "date":"Oct 2021 - Mar 2022",
+       "studio":"A-1 Pictures",
+       "episode":"12",
+       "tipe":"TV"
+    },
+    {
+       "id":46,
+       "image":"https://cdn.myanimelist.net/images/anime/3/45028.jpg",
+       "title":"Ashita no Joe 2",
+       "score":"8.71",
+       "date":"Oct 1980 - Aug 1981",
+       "studio":"Tokyo Movie Shinsha",
+       "episode":"47",
+       "tipe":"TV"
+    },
+    {
+       "id":47,
+       "image":"https://cdn.myanimelist.net/images/anime/1142/112957.jpg",
+       "title":"Fate/Stay Movie: Haven`s Feel - III. Spring Song",
+       "score":"8.71",
+       "date":"Aug 15, 2020",
+       "studio":"Ufotable",
+       "episode":"1",
+       "tipe":"Movie"
+    },
+    {
+       "id":48,
+       "image":"https://cdn.myanimelist.net/images/anime/5/50331.jpg",
+       "title":"Code. Geass: Hangyaku no Lelouch",
+       "score":"8.70",
+       "date":"Oct 2006 - Jul 2007",
+       "studio":"Sunrise",
+       "episode":"25",
+       "tipe":"TV"
+    },
+    {
+       "id":49,
+       "image":"https://cdn.myanimelist.net/images/anime/13/58533.jpg",
+       "title":"Mushishi Zoku Shou",
+       "score":"8.70",
+       "date":"Apr 2014 - Jun 2014",
+       "studio":"Sunrise",
+       "episode":"10",
+       "tipe":"TV"
+    },
+    {
+       "id":50,
+       "image":"https://cdn.myanimelist.net/images/anime/13/11460.jpg",
+       "title":"Great Teacher Onizuka",
+       "score":"8.69",
+       "date":"Jun 1999 - Sep 2000",
+       "studio":"Pierrot",
+       "episode":"43",
+       "tipe":"TV"
+    }
+ ]
