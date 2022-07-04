@@ -50,6 +50,10 @@ body {
   height: 75%;
 }
 
+.article h2 {
+  margin-left: 50px;
+}
+
 
 
 #all-box-manga {
@@ -160,27 +164,28 @@ body {
   color: #FFAFAF;
 }
 
-/* Parent Container */
-.content_img{
+.content{
   display: flex;
   align-items: center;
   position: relative;
   width: 300px;
   height: 150px;
-  float: left;
-  margin-right: 10px;
-  margin-left: 35px;
-  margin-bottom: 15px;
+  padding: 20px;
+ }
+
+ .content img{
+  margin-top: 50px;
+  height: 100%;
+  width: 100%;
  }
  
  /* Child Text Container */
- .content_img div{
+ .content div{
   position: absolute;
   bottom: 0;
   right: 0;
   background: black;
   color: white;
-  margin-bottom: 5px;
   font-family: sans-serif;
   opacity: 0;
   visibility: hidden;
@@ -190,11 +195,11 @@ body {
  }
  
  /* Hover on Parent Container */
- .content_img:hover{
+ .content:hover{
   cursor: pointer;
  }
  
- .content_img:hover div{
+ .content:hover div{
   width: 150px;
   padding: 8px 15px;
   visibility: visible;

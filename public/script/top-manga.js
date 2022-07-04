@@ -32,4 +32,23 @@ async function createCardManga() {
   }
 }
 
+async function createContentLeft() {
+  let allbox = document.getElementById('content-left')
+  let dataAnime = await fetch('data/data.json').then((data) => {
+    return data.json()
+  })
+
+  for (let i = 0; i < 3; i++) {
+    let card = document.createElement('div')
+    card.classList.add('content')
+    card.innerHTML = `
+    <img src='${dataAnime[i].image}'>
+    <div>${dataAnime[i].title}</div>     
+        `
+    allbox.appendChild(card)
+  }
+}
+
+createContentLeft()
 createCardManga()
+
