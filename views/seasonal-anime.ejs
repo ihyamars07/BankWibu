@@ -10,31 +10,824 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/footer.css">
-    <!-- Link Script -->
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    
 </head>
 <body>
     <%- include('layouts/header') %> 
     <%- include('layouts/nav') %> 
     
     <div class="container">
-        <div class="sideLeft">
-            <h3>Top Anime</h3>
+        <div class="sideLeft" id="left">
+            <h3>J-Culture</h3>
+            <div id="content-left"></div>
         </div>
-        <div class="article">
-            <h2>Seasonal Anime</h2>
-            <div class="box1">
-                
-            </div>
-            
-            <div class="box2">
-                
-            </div>
+        <div id="mainleft">
+            <button class="open-btn-left" onclick="toggleNavLeft()">
+                <span class="material-symbols-outlined">
+                    chevron_right
+                </span>
+            </button>
         </div>
-        <div class="sideRight">
-            <h3>Top Manga</h3>
+         <!-- Tab links -->
+  <div class="display">
+    <div class="tab">
+    <button class="tablinks" onclick="openCity(event, 'Winter')">Winter</button>
+    <button class="tablinks" onclick="openCity(event, 'Spring')">Spring</button>
+    <button class="tablinks" onclick="openCity(event, 'Summer')">Summer</button>    
+    <button class="tablinks" onclick="openCity(event, 'Fall')">Fall</button>
+  </div> 
+    <div id="Winter" class="tabcontent">
+    <div class="box">
+        
+        <div style="float: left;">
+            <table>
+                <tr style="text-align: left">
+                    <div class="container">
+                        <td>
+                            <img src="https://cdn.myanimelist.net/images/anime/1908/120036.webp" alt="img" width="200px" height="250px">
+                            <div class="kiri">
+                                <p>1</p>
+                            </div>
+                        </td>
+                    </div>
+                    <td class="desc">
+                        <h2 style="font-size: 20px;">Kimetsu no Yaiba: Yuukaku-hen</h2>
+                        <p>Realease Date: <b>Dec 5, 2021</b></p>
+                        <p>Total Episode: <b>11 eps, 26 min</b></p>
+                        <p>Studio: <b>ufotable</b></p>
+                    </td>
+                </tr>
+            </table>
+        </div>         
+    </div>
+
+    <div class="box">
+        <div>
+            <table>
+                <tr style="text-align: left">
+                    <td><img src="https://cdn.myanimelist.net/images/anime/1948/120625.webp" alt="img" width="200px" height="250px">
+                        <div class="kiri">
+                            <p>2</p>
+                        </div>
+                    </td>
+                    <td class="desc">
+                        <h3>Shingeki no Kyojin: The Final Season Part 2</h3>
+                        <p>Realease Date: <b>Jan 10, 2022</b></p>
+                        <p>Total Episode: <b>12 eps, 23 min</b></p>
+                        <p>Studio: <b>MAPPA</b></p>
+                    </td>
+                </tr>
+            </table>
+        </div>         
+    </div>
+
+    <div class="box">
+        <div>
+            <table>
+                <tr style="text-align: left">
+                    <td><img src="https://cdn.myanimelist.net/images/anime/1179/119897.webp" alt="img" width="200px" height="250px">
+                        <div class="kiri">
+                            <p>3</p>
+                        </div>
+                    </td>
+                    <td class="desc">
+                        <h3>Sono Bisque Doll wa Koi wo Suru</h3>
+                        <p>Realease Date: <b>Jan 9, 2022</b></p>
+                        <p>Total Episode: <b>12 eps, 23 min</b></p>
+                        <p>Studio: <b>CloverWorks</b></p>
+                    </td>
+                </tr>
+            </table>
+        </div>         
+    </div>
+
+    <div class="box">
+        <div>
+            <table>
+                <tr style="text-align: left">
+                    <td><img src="https://cdn.myanimelist.net/images/anime/1877/119668.webp" alt="img" width="200px" height="250px">
+                        <div class="kiri">
+                            <p>4</p>
+                        </div>
+                    </td>
+                    <td class="desc">
+                        <h2 style="font-size: 18px;">Arifureta 2nd Season</h2>
+                        <p>Realease Date: <b>Jan 13, 2022</b></p>
+                        <p>Total Episode: <b>12 eps, 23 min</b></p>
+                        <p>Studio: <b>asread.studio MOTHER</b></p>
+                    </td>
+                </tr>
+            </table>
+        </div>         
+    </div>
+
+    <div class="box">
+        <div>
+            <table>
+                <tr style="text-align: left">
+                    <td><img src="https://cdn.myanimelist.net/images/anime/1446/118840.webp" alt="img" width="200px" height="250px">
+                        <div class="kiri">
+                            <p>5</p>
+                        </div>
+                    </td>
+                    <td class="desc">
+                        <h3>Sabikui Bisco</h3>
+                        <p>Realease Date: <b>Jan 11, 2022</b></p>
+                        <p>Total Episode: <b>12 eps, 23 min</b></p>
+                        <p>Studio: <b>NAZ,OZ</b></p>
+                    </td>
+                </tr>
+            </table>
+        </div>         
+    </div>
+
+    <div class="box">
+        <div>
+            <table>
+                <tr style="text-align: left">
+                    <td><img src="https://cdn.myanimelist.net/images/anime/1263/119511.webp" alt="img" width="200px" height="250px">
+                        <div class="kiri">
+                            <p>6</p>
+                        </div>
+                    </td>
+                    <td class="desc">
+                        <h2 style="font-size: 18px;">Tensai Ouji no Akaji Kokka Saisei Jutsu</h2>
+                        <p>Realease Date: <b>Jan 11, 2022</b></p>
+                        <p>Total Episode: <b>12 eps, 24 min</b></p>
+                        <p>Studio: <b>Yokohama Animation Lab</b></p>
+                    </td>
+                </tr>
+            </table>
+        </div>         
+    </div>
+
+    <div class="box">
+        <div>
+            <table>
+                <tr style="text-align: left">
+                    <td><img src="https://cdn.myanimelist.net/images/anime/1247/120579.webp" alt="img" width="200px" height="250px">
+                        <div class="kiri">
+                            <p>7</p>
+                        </div>
+                    </td>
+                    <td class="desc">
+                        <h3>Vanitas no Karte Part 2</h3>
+                        <p>Realease Date: <b>Jan 15, 2022</b></p>
+                        <p>Total Episode: <b>12 eps, 23 min</b></p>
+                        <p>Studio: <b>Bones</b></p>
+                    </td>
+                </tr>
+            </table>
+        </div>         
+    </div>
+
+    <div class="box">
+        <div>
+            <table>
+                <tr style="text-align: left">
+                    <td><img src="https://cdn.myanimelist.net/images/anime/1088/120068.webp" alt="img" width="200px" height="250px">
+                        <div class="kiri">
+                            <p>8</p>
+                        </div>
+                    </td>
+                    <td class="desc">
+                        <h2 style="font-size: 19px;">Genjitsu Shugi Yuusha no Oukoku Saikenki Part 2</h2>
+                        <p>Realease Date: <b>Jan 9, 2022</b></p>
+                        <p>Total Episode: <b>13 eps, 24 min</b></p>
+                        <p>Studio: <b>J.C.Staff</b></p>
+                    </td>
+                </tr>
+            </table>
+        </div>         
+    </div>
+
+    <div class="box">
+        <div>
+            <table>
+                <tr style="text-align: left">
+                    <td><img src="https://cdn.myanimelist.net/images/anime/1132/120388.webp" alt="img" width="200px" height="250px">
+                        <div class="kiri">
+                            <p>9</p>
+                        </div>
+                    </td>
+                    <td class="desc">
+                        <h3>Shikkakumon no Saikyou Kenja</h3>
+                        <p>Realease Date: <b>Jan 8, 2022</b></p>
+                        <p>Total Episode: <b>12 eps, 23 min</b></p>
+                        <p>Studio: <b>J.C.Staff</b></p>
+                    </td>
+                </tr>
+            </table>
+        </div>         
+    </div>
+
+    <div class="box">
+        <div>
+            <table>
+                <tr style="text-align: left">
+                    <td><img src="https://cdn.myanimelist.net/images/anime/1861/120361.webp" alt="img" width="200px" height="250px">
+                        <div class="kiri">
+                            <p>10</p>
+                        </div>
+                    </td>
+                    <td class="desc">
+                        <h3>Karakai Jouzu no Takagi-san 3</h3>
+                        <p>Realease Date: <b>Jan 8, 2022</b></p>
+                        <p>Total Episode: <b>12 eps, 24 min</b></p>
+                        <p>Studio: <b>Shin-Ei Animation</b></p>
+                    </td>
+                </tr>
+            </table>
+        </div>         
+    </div>
+</div>
+  <!-- SPRING -->
+  <div class="display"> 
+    <div id="Spring" class="tabcontent">
+        <div class="box">
+            <div>
+                <table>
+                    <tr class="row">
+                        <td><img src="https://cdn.myanimelist.net/images/anime/1441/122795.webp" alt="img" width="200px" height="250px">
+                            <div class="kiri">
+                                <p>1</p>
+                            </div>
+                        </td>
+                        <td class="desc">
+                            <h3>Spy x Family</h3>
+                            <p>Realease Date: <b>Apr 9, 2022</b></p>
+                            <p>Total Episode: <b>12 eps, 23 min</b></p>
+                            <p>Studio: <b>CloverWorks, Wit Studio</b></p>
+                        </td>
+                    </tr>
+                </table>
+            </div>         
+        </div>
+        <div class="box">
+            <div>
+                <table>
+                    <tr class="row">
+                        <td><img src="https://cdn.myanimelist.net/images/anime/1143/121873.webp" alt="img" width="200px" height="250px">
+                            <div class="kiri">
+                                <p>2</p>
+                            </div>
+                        </td>
+                        <td class="desc">
+                            <h3>Tate no Yuusha no Nariagari Season 2</h3>
+                            <p>Realease Date: <b>Apr 6, 2022</b></p>
+                            <p>Total Episode: <b>13 eps, 23 min</b></p>
+                            <p>Studio: <b>DR Movie, Kinema Citrus</b></p>
+                        </td>
+                    </tr>
+                </table>
+            </div>         
+        </div>
+        <div class="box">
+            <div>
+                <table>
+                    <tr class="row">
+                        <td><img src="https://cdn.myanimelist.net/images/anime/1160/122627.webp" alt="img" width="200px" height="250px">
+                            <div class="kiri">
+                                <p>3</p>
+                            </div>
+                        </td>
+                        <td class="desc">
+                            <h3>Kaguya-sama wa Kokurasetai: Ultra Romantic</h3>
+                            <p>Realease Date: <b>Apr 9, 2022</b></p>
+                            <p>Total Episode: <b>13 eps, 23 min</b></p>
+                            <p>Studio: <b>A-1 Pictures</b></p>
+                        </td>
+                    </tr>
+                </table>
+            </div>         
+        </div>
+        <div class="box">
+            <div>
+                <table>
+                    <tr class="row">
+                        <td><img src="https://cdn.myanimelist.net/images/anime/1995/121695.webp" alt="img" width="200px" height="250px">
+                            <div class="kiri">
+                                <p>4</p>
+                            </div>
+                        </td>
+                        <td class="desc">
+                            <h3>Kawaii dake ja Nai Shikimori-san</h3>
+                            <p>Realease Date: <b>Apr 10, 2022</b></p>
+                            <p>Total Episode: <b>12 eps, 23 min</b></p>
+                            <p>Studio: <b>Doga Kobo</b></p>
+                        </td>
+                    </tr>
+                </table>
+            </div>         
+        </div>
+        <div class="box">
+            <div>
+                <table>
+                    <tr class="row">
+                        <td><img src="https://cdn.myanimelist.net/images/anime/1108/121157.webp" alt="img" width="200px" height="250px">
+                            <div class="kiri">
+                                <p>5</p>
+                            </div>
+                        </td>
+                        <td class="desc">
+                            <h3>Komi-san wa, Comyushou desu. 2nd Season</h3>
+                            <p>Realease Date: <b>Apr 7, 2022</b></p>
+                            <p>Total Episode: <b>12 eps, 23 min</b></p>
+                            <p>Studio: <b>OLM</b></p>
+                        </td>
+                    </tr>
+                </table>
+            </div>         
+        </div>
+        <div class="box">
+            <div>
+                <table>
+                    <tr class="row">
+                        <td><img src="https://cdn.myanimelist.net/images/anime/1612/120636.webp" alt="img" width="200px" height="250px">
+                            <div class="kiri">
+                                <p>6</p>
+                            </div>
+                        </td>
+                        <td class="desc">
+                            <h3>Aharen-san wa Hakarenai</h3>
+                            <p>Realease Date: <b>Apr 2, 2022</b></p>
+                            <p>Total Episode: <b>12 eps, 23 min</b></p>
+                            <p>Studio: <b>Felix Film</b></p>
+                        </td>
+                    </tr>
+                </table>
+            </div>         
+        </div>
+        <div class="box">
+            <div>
+                <table>
+                    <tr class="row">
+                        <td><img src="https://cdn.myanimelist.net/images/anime/1120/120796.webp" alt="img" width="200px" height="250px">
+                            <div class="kiri">
+                                <p>7</p>
+                            </div>
+                        </td>
+                        <td class="desc">
+                            <h3>Summertime Render</h3>
+                            <p>Realease Date: <b>Apr 15, 2022</b></p>
+                            <p>Total Episode: <b>25 eps, 23 min</b></p>
+                            <p>Studio: <b>OLM</b></p>
+                        </td>
+                    </tr>
+                </table>
+            </div>         
+        </div>
+        <div class="box">
+            <div>
+                <table>
+                    <tr class="row">
+                        <td><img src="https://cdn.myanimelist.net/images/anime/1247/121345.webp" alt="img" width="200px" height="250px">
+                            <div class="kiri">
+                                <p>8</p>
+                            </div>
+                        </td>
+                        <td class="desc">
+                            <h3>Tomodachi Game</h3>
+                            <p>Realease Date: <b>Apr 6, 2022</b></p>
+                            <p>Total Episode: <b>13 eps, 23 min</b></p>
+                            <p>Studio: <b>DR Movie, Kinema Citrus</b></p>
+                        </td>
+                    </tr>
+                </table>
+            </div>         
+        </div>
+        <div class="box">
+            <div>
+                <table>
+                    <tr class="row">
+                        <td><img src="https://cdn.myanimelist.net/images/anime/1361/120706.webp" alt="img" width="200px" height="250px">
+                            <div class="kiri">
+                                <p>9</p>
+                            </div>
+                        </td>
+                        <td class="desc">
+                            <h4 style="font-size: 12px">Gaikotsu Kishi-sama, Tadaima Isekai e Odekakechuu</h4>
+                            <p>Realease Date: <b>Apr 7, 2022</b></p>
+                            <p>Total Episode: <b>12 eps, 23 min</b></p>
+                            <p>Studio: <b>HORNETS, Studio Kai</b></p>
+                        </td>
+                    </tr>
+                </table>
+            </div>         
+        </div>
+        <div class="box">
+            <div>
+                <table>
+                    <tr class="row">
+                        <td><img src="https://cdn.myanimelist.net/images/anime/1368/121281.webp" alt="img" width="200px" height="250px">
+                            <div class="kiri">
+                                <p>10</p>
+                            </div>
+                        </td>
+                        <td class="desc">
+                            <h4>Date A Live IV</h4>
+                            <p>Realease Date: <b>Apr 8, 2022</b></p>
+                            <p>Total Episode: <b>12 eps, 23 min</b></p>
+                            <p>Studio: <b>GEEK TOYS</b></p>
+                        </td>
+                    </tr>
+                </table>
+            </div>         
         </div>
     </div>
+        <!--SUMMER-->
+  <div class="display"> 
+    <div id="Summer" class="tabcontent">
+        <div class="box">
+            <div>
+                <table>
+                    <tr class="row">
+                        <td><img src="https://cdn.myanimelist.net/images/anime/1502/124354.webp" alt="img" width="200px" height="250px">
+                            <div class="kiri">
+                                <p>1</p>
+                            </div>
+                        </td>
+                        <td class="desc">
+                            <h3>Hataraku Maou-sama!!</h3>
+                            <p>Realease Date: <b>Jul 14, 2022</b></p>
+                            <p>Total Episode: <b> ? eps, 0 min</b></p>
+                            <p>Studio: <b>Studio 3Hz</b></p>
+                        </td>
+                    </tr>
+                </table>
+            </div>         
+        </div>
+        <div class="box">
+            <div>
+                <table>
+                    <tr class="row">
+                        <td><img src="https://cdn.myanimelist.net/images/anime/1070/124592.webp" alt="img" width="200px" height="250px">
+                            <div class="kiri">
+                                <p>2</p>
+                            </div>
+                        </td>
+                        <td class="desc">
+                            <h3>Kanojo, Okarishimasu 2nd Season</h3>
+                            <p>Realease Date: <b>Jul 2, 2022</b></p>
+                            <p>Total Episode: <b>? eps, 24 min</b></p>
+                            <p>Studio: <b>TMS Entertainment</b></p>
+                        </td>
+                    </tr>
+                </table>
+            </div>         
+        </div>
+        <div class="box">
+            <div>
+                <table>
+                    <tr class="row">
+                        <td><img src="https://cdn.myanimelist.net/images/anime/1530/120110.webp" alt="img" width="200px" height="250px">
+                            <div class="kiri">
+                                <p>3</p>
+                            </div>
+                        </td>
+                        <td class="desc">
+                            <h3>Overlord IV</h3>
+                            <p>Realease Date: <b>Jul 5, 2022</b></p>
+                            <p>Total Episode: <b>? eps, 0 min</b></p>
+                            <p>Studio: <b>Madhouse</b></p>
+                        </td>
+                    </tr>
+                </table>
+            </div>         
+        </div>
+        <div class="box">
+            <div>
+                <table>
+                    <tr class="row">
+                        <td><img src="https://cdn.myanimelist.net/images/anime/1864/122519.webp" alt="img" width="200px" height="250px">
+                            <div class="kiri">
+                                <p>4</p>
+                            </div>
+                        </td>
+                        <td class="desc">
+                            <h3>Made in Abyss: Retsujitsu no Ougonkyou</h3>
+                            <p>Realease Date: <b>Jul 6, 2022</b></p>
+                            <p>Total Episode: <b>12 eps, 0 min</b></p>
+                            <p>Studio: <b>-</b></p>
+                        </td>
+                    </tr>
+                </table>
+            </div>         
+        </div>
+        <div class="box">
+            <div>
+                <table>
+                    <tr class="row">
+                        <td><img src="https://cdn.myanimelist.net/images/anime/1010/124180.webp" alt="img" width="200px" height="250px">
+                            <div class="kiri">
+                                <p>5</p>
+                            </div>
+                        </td>
+                        <td class="desc">
+                            <h3>Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e (TV) 2nd Season</h3>
+                            <p>Realease Date: <b>Jul 4, 2022</b></p>
+                            <p>Total Episode: <b>? eps, 0 min</b></p>
+                            <p>Studio: <b>Lerche</b></p>
+                        </td>
+                    </tr>
+                </table>
+            </div>         
+        </div>
+        <div class="box">
+            <div>
+                <table>
+                    <tr class="row">
+                        <td><img src="https://cdn.myanimelist.net/images/anime/1180/120373.webp" alt="img" width="200px" height="250px">
+                            <div class="kiri">
+                                <p>6</p>
+                            </div>
+                        </td>
+                        <td class="desc">
+                            <h3>Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka IV: Shin Shou - Meikyuu-hen</h3>
+                            <p>Realease Date: <b>Jul 23, 2022</b></p>
+                            <p>Total Episode: <b>? eps, 0 min</b></p>
+                            <p>Studio: <b>J.C.Staff</b></p>
+                        </td>
+                    </tr>
+                </table>
+            </div>         
+        </div>
+        <div class="box">
+            <div>
+                <table>
+                    <tr class="row">
+                        <td><img src="https://cdn.myanimelist.net/images/anime/1045/123711.webp" alt="img" width="200px" height="250px">
+                            <div class="kiri">
+                                <p>7</p>
+                            </div>
+                        </td>
+                        <td class="desc">
+                            <h3>Yofukashi no Uta</h3>
+                            <p>Realease Date: <b>Jul 8, 2022</b></p>
+                            <p>Total Episode: <b>13 eps, 0 min</b></p>
+                            <p>Studio: <b>LIDENFILMS</b></p>
+                        </td>
+                    </tr>
+                </table>
+            </div>         
+        </div>
+        <div class="box">
+            <div>
+                <table>
+                    <tr class="row">
+                        <td><img src="https://cdn.myanimelist.net/images/anime/1708/123281.webp" alt="img" width="200px" height="250px">
+                            <div class="kiri">
+                                <p>8</p>
+                            </div>
+                        </td>
+                        <td class="desc">
+                            <h3>Mamahaha no Tsurego ga Motokano datta</h3>
+                            <p>Realease Date: <b>Jul 6, 2022</b></p>
+                            <p>Total Episode: <b>? eps, 0 min</b></p>
+                            <p>Studio: <b>Project No.9</b></p>
+                        </td>
+                    </tr>
+                </table>
+            </div>         
+        </div>
+        <div class="box">
+            <div>
+                <table>
+                    <tr class="row">
+                        <td><img src="https://cdn.myanimelist.net/images/anime/1724/120368.webp" alt="img" width="200px" height="250px">
+                            <div class="kiri">
+                                <p>9</p>
+                            </div>
+                        </td>
+                        <td class="desc">
+                            <h3>Tensei Kenja no Isekai Life: Dai-2 no Shokugyou wo Ete, Sekai Saikyou ni Narimashita</h3>
+                            <p>Realease Date: <b>Jul 4, 2022</b></p>
+                            <p>Total Episode: <b>? eps, 0 min</b></p>
+                            <p>Studio: <b>Revoroot</b></p>
+                        </td>
+                    </tr>
+                </table>
+            </div>         
+        </div>
+        <div class="box">
+            <div>
+                <table>
+                    <tr class="row">
+                        <td><img src="https://cdn.myanimelist.net/images/anime/1279/124069.webp" alt="img" width="200px" height="250px">
+                            <div class="kiri">
+                                <p>10</p>
+                            </div>
+                        </td>
+                        <td class="desc">
+                            <h4 style="font-size: 18px">Soredemo Ayumu wa Yosetekuru</h4>
+                            <p>Realease Date: <b>Jul 8, 2022</b></p>
+                            <p>Total Episode: <b>? eps, 0 min</b></p>
+                            <p>Studio: <b>SILVER LINK.</b></p>
+                        </td>
+                    </tr>
+                </table>
+            </div>         
+        </div>
+    </div>
+  <!--FALL-->
+  <div class="display"> 
+    <div id="Fall" class="tabcontent">
+        <div class="box">
+            <div>
+                <table>
+                    <tr class="row">
+                        <td><img src="https://cdn.myanimelist.net/images/anime/1448/118899.webp" alt="img" width="200px" height="250px">
+                            <div class="kiri">
+                                <p>1</p>
+                            </div>
+                        </td>
+                        <td class="desc">
+                            <h3>Mob Psycho 100 III</h3>
+                            <p>Realease Date: <b>Oct 2022</b></p>
+                            <p>Total Episode: <b> ? eps, 0 min</b></p>
+                            <p>Studio: <b>Bones</b></p>
+                        </td>
+                    </tr>
+                </table>
+            </div>         
+        </div>
+        <div class="box">
+            <div>
+                <table>
+                    <tr class="row">
+                        <td><img src="https://cdn.myanimelist.net/images/anime/1201/121657.webp" alt="img" width="200px" height="250px">
+                            <div class="kiri">
+                                <p>2</p>
+                            </div>
+                        </td>
+                        <td class="desc">
+                            <h3>Boku no Hero Academia 6th Season</h3>
+                            <p>Realease Date: <b>Oct 2022</b></p>
+                            <p>Total Episode: <b>? eps, 0 min</b></p>
+                            <p>Studio: <b>-</b></p>
+                        </td>
+                    </tr>
+                </table>
+            </div>         
+        </div>
+        <div class="box">
+            <div>
+                <table>
+                    <tr class="row">
+                        <td><img src="https://cdn.myanimelist.net/images/anime/1959/124973.webp" alt="img" width="200px" height="250px">
+                            <div class="kiri">
+                                <p>3</p>
+                            </div>
+                        </td>
+                        <td class="desc">
+                            <h3>Bleach: Sennen Kessen-hen</h3>
+                            <p>Realease Date: <b>Oct 2022</b></p>
+                            <p>Total Episode: <b>? eps, 0 min</b></p>
+                            <p>Studio: <b>Pierrot</b></p>
+                        </td>
+                    </tr>
+                </table>
+            </div>         
+        </div>
+        <div class="box">
+            <div>
+                <table>
+                    <tr class="row">
+                        <td><img src="https://cdn.myanimelist.net/images/anime/1877/120114.webp" alt="img" width="200px" height="250px">
+                            <div class="kiri">
+                                <p>4</p>
+                            </div>
+                        </td>
+                        <td class="desc">
+                            <h3>Spy x Family Part 2</h3>
+                            <p>Realease Date: <b>Oct 2022</b></p>
+                            <p>Total Episode: <b>13 eps, 0 min</b></p>
+                            <p>Studio: <b>-</b></p>
+                        </td>
+                    </tr>
+                </table>
+            </div>         
+        </div>
+        <div class="box">
+            <div>
+                <table>
+                    <tr class="row">
+                        <td><img src="https://cdn.myanimelist.net/images/anime/1841/120585.webp" alt="img" width="200px" height="250px">
+                            <div class="kiri">
+                                <p>5</p>
+                            </div>
+                        </td>
+                        <td class="desc">
+                            <h3>Fumetsu no Anata e 2nd Season</h3>
+                            <p>Realease Date: <b>Oct 2022</b></p>
+                            <p>Total Episode: <b>? eps, 0 min</b></p>
+                            <p>Studio: <b>Drive</b></p>
+                        </td>
+                    </tr>
+                </table>
+            </div>         
+        </div>
+        <div class="box">
+            <div>
+                <table>
+                    <tr class="row">
+                        <td><img src="https://cdn.myanimelist.net/images/anime/1361/124715.webp" alt="img" width="200px" height="250px">
+                            <div class="kiri">
+                                <p>6</p>
+                            </div>
+                        </td>
+                        <td class="desc">
+                            <h3>Uzaki-chan wa Asobitai! Double</h3>
+                            <p>Realease Date: <b>Oct 2022</b></p>
+                            <p>Total Episode: <b>? eps, 0 min</b></p>
+                            <p>Studio: <b>ENGI</b></p>
+                        </td>
+                    </tr>
+                </table>
+            </div>         
+        </div>
+        <div class="box">
+            <div>
+                <table>
+                    <tr class="row">
+                        <td><img src="https://cdn.myanimelist.net/images/anime/1400/123773.webp" alt="img" width="200px" height="250px">
+                            <div class="kiri">
+                                <p>7</p>
+                            </div>
+                        </td>
+                        <td class="desc">
+                            <h3>Blue Lock</h3>
+                            <p>Realease Date: <b>Oct 2022</b></p>
+                            <p>Total Episode: <b>? eps, 0 min</b></p>
+                            <p>Studio: <b>8bit</b></p>
+                        </td>
+                    </tr>
+                </table>
+            </div>         
+        </div>
+        <div class="box">
+            <div>
+                <table>
+                    <tr class="row">
+                        <td><img src="https://cdn.myanimelist.net/images/anime/1874/121869.webp" alt="img" width="200px" height="250px">
+                            <div class="kiri">
+                                <p>8</p>
+                            </div>
+                        </td>
+                        <td class="desc">
+                            <h3>Kage no Jitsuryokusha ni Naritakute!</h3>
+                            <p>Realease Date: <b>Oct 2022</b></p>
+                            <p>Total Episode: <b>? eps, 0 min</b></p>
+                            <p>Studio: <b>Nexus</b></p>
+                        </td>
+                    </tr>
+                </table>
+            </div>         
+        </div>
+        <div class="box">
+            <div>
+                <table>
+                    <tr class="row">
+                        <td><img src="https://cdn.myanimelist.net/images/anime/1377/121509.webp" alt="img" width="200px" height="250px">
+                            <div class="kiri">
+                                <p>9</p>
+                            </div>
+                        </td>
+                        <td class="desc">
+                            <h3>Mairimashita! Iruma-kun 3rd Season</h3>
+                            <p>Realease Date: <b>Oct 2022</b></p>
+                            <p>Total Episode: <b>? eps, 0 min</b></p>
+                            <p>Studio: <b>Bandai Namco Pictures</b></p>
+                        </td>
+                    </tr>
+                </table>
+            </div>         
+        </div>
+        <div class="box">
+            <div>
+                <table>
+                    <tr class="row">
+                        <td><img src="https://cdn.myanimelist.net/images/anime/1949/121871.webp" alt="img" width="200px" height="250px">
+                            <div class="kiri">
+                                <p>10</p>
+                            </div>
+                        </td>
+                        <td class="desc">
+                            <h4 style="font-size: 18px">KanColle: Itsuka Ano Umi de</h4>
+                            <p>Realease Date: <b>Nov 2022</b></p>
+                            <p>Total Episode: <b>8 eps, 0 min</b></p>
+                            <p>Studio: <b>-</b></p>
+                        </td>
+                    </tr>
+                </table>
+            </div>         
+        </div>
+    </div>
+ </div> 
+</div>
+<!-- Link Script -->
+<script src="script/seasonal-anime.js"></script>
     <%- include('layouts/footer') %> 
 </body>
 </html>
