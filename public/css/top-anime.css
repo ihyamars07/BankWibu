@@ -109,10 +109,10 @@ body {
   border-radius: 0 10px 10px 0;
   top: 190px;
   overflow-x: hidden; /* Disable horizontal scroll */
-  overflow-y: scroll;
   padding-top: 35px; /* Place content 60px from the top */
   transition: 0.5s; /* 0.5 second transition effect to slide in the sidebar */
 }
+
 
 /* The button used to open the sidebar */
 .open-btn-left {

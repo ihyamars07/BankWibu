@@ -26,6 +26,10 @@ body {
   overflow-y: scroll;
 }
 
+.sideLeft::-webkit-scrollbar{
+  display: none;
+}
+
 .sideLeft h3{ 
   margin-inline: 20px;
   text-align: center;
@@ -49,6 +53,10 @@ body {
   position: sticky;
   top: 170px;
   overflow-y: scroll;
+}
+
+.sideRight::-webkit-scrollbar{
+  display: none;
 }
 
 .sideRight h3 {
