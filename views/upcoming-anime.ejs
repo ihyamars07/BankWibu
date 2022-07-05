@@ -10,31 +10,154 @@
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/footer.css">
-    <!-- Link Script -->
-    <script src="script.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  
 </head>
 <body>
     <%- include('layouts/header') %> 
     <%- include('layouts/nav') %> 
     
     <div class="container">
-        <div class="sideLeft">
+        <div class="sideLeft" id="left">
             <h3>Top Anime</h3>
+            <div id="content-left"></div>
+        </div>
+        <div id="mainleft">
+            <button class="open-btn-left" onclick="toggleNavLeft()" onclick="myFunction()">
+                <span class="material-symbols-outlined">
+                    chevron_right
+                </span>
+            </button>
         </div>
         <div class="article">
-            <h2>Upcoming Anime</h2>
-            <div class="box1">
-                
-            </div>
-            
-            <div class="box2">
-                
-            </div>
-        </div>
-        <div class="sideRight">
-            <h3>Top Manga</h3>
+            <h2 style="margin-top: 25px; padding-right: 190px; padding-left: 190px;">Upcoming</h2>
+            <div class="top-mangga-container">
+            <div class="card-container" style="margin-top: 25px; padding-right: 80px; padding-left: 80px;">
+        
+        
+                <div class="float-layout">
+                  <div class="card-image">
+                    <img src="img/anime/Made_in_Abyss_Retsujitsu_no_Ougonkyou.jpeg">
+                    <div class="card">
+                      <div class="card-title">Made in Abyss : Retsujitsu no Ougonkyou</div>
+                      <div class="card-desc">
+                      Menceritakan tentang petualangan Riko yang menjelajah kedalaman Abyss bersama dengan rekannya, Reg dan Nanachi.
+                      Abyss merupakan sebuah tempat yang terdapat bermacam kegilaan pada setiap lantainya.
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="float-layout">
+                    <div class="card-image">
+                      <img src="img/anime/Chainsaw_Man.jpeg">
+                      <div class="card">
+                        <div class="card-title">Chainsaw Man</div>
+                        <div class="card-desc">
+                        Denji hidup di tengah kemiskinan dan menjadi Pemburu Iblis demi melunasi hutang ayahnya. Caranya yaitu dengan memberikan mayat iblis hasil buruannya kepada para Yakuza. Kehidupannya berubah untuk selamanya ketika tubuhnya bergabung dengan mayat anjing peliharaannya yang bernama Pochita.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="float-layout">
+                    <div class="card-image">
+                      <img src="img/anime/Hataraku_Maou-sama!!.jpeg">
+                      <div class="card">
+                        <div class="card-title">Hataraku Maou sama 2nd Seasons</div>
+                        <div class="card-desc">
+                          Raja iblis dan jenderalnya lalu terjebak di tengah-tengah kehidupan Tokyo modern yang ramai. Raja iblis dan jenderalnya yang terjebak di Tokyo tidak memiliki kemampuan untuk kembali ke dunianya sehingga terpaksa menetap.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="float-layout">
+                    <div class="card-image">
+                     <img src="img/anime/Mob_Psycho_100_III.jpeg">
+                      <div class="card">
+                        <div class="card-title">Mob Psycho 100 III</div>
+                        <div class="card-desc">
+                        Kisah dalam anime ini berpusat pada Denji yang terlilit hutang dan hidup di dalam kemelaratan. Dia kemudian melakukan perjanjian dengan Yakuza yang merupakan seorang iblis. Isi perjanjian tersebut adalah Denji ingin dihidupkan kembali. Akan tetapi, Yakuza itu tidak mengabulkan keinginannya cuma-cuma.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+        
+                  <div class="float-layout">
+                    <div class="card-image">
+                     <img src="img/anime/Overlord_IV.jpeg">
+                      <div class="card">
+                        <div class="card-title">Overlord IV</div>
+                        <div class="card-desc">
+                        terjebak di dunia game. Bermula dari ketika game MMORPG populer akan ditutup. Namun ada satu pemain veteran, master dari Ainz Ooal Gown, Momonga yang memutuskan untuk tetap berada di dalam game tersebut hingga tanggal penutupan tiba.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+        
+                  <div class="float-layout">
+                    <div class="card-image">
+                     <img src="img/anime/Tate_no_Yuusha_no_Nariagari_Season_3.jpeg">
+                      <div class="card">
+                        <div class="card-title">Tate no Yuusha no Nariagari Season 3</div>
+                        <div class="card-desc">
+                          masih mengisahkan perjalanan Naofumi Iwatani, seorang otaku yang masuk ke dunia isekai dan menjadi ksatria perisai. Naofumi merupakan anggota The Four Cardinal Heroes, sekelompok orang biasa dari Jepang era modern yang diminta menyelamatkan kerajaan Melromarc dari gelombang petaka.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+        
+                  <div class="float-layout">
+                    <div class="card-image">
+                     <img src="img/anime/Bleach_Sennen_Kessen-hen.jpeg">
+                      <div class="card">
+                        <div class="card-title">Bleach Sennen Kessen Hen</div>
+                        <div class="card-desc">
+                        Ichigo Kurosaki adalah siswa sekolah menengah biasa, sampai keluarganya diserang oleh Hollow, roh korup yang berusaha melahap jiwa manusia. Saat itulah ia bertemu dengan Soul Reaper bernama Rukia Kuchiki, yang terluka saat melindungi keluarga Ichigo dari penyerang. Untuk menyelamatkan keluarganya, Ichigo menerima tawaran Rukia untuk menjadi Soul Reaper.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+        
+                  <div class="float-layout">
+                    <div class="card-image">
+                     <img src="img/anime/Boku_no_Hero_Academia_6th_Season.jpeg">
+                      <div class="card">
+                        <div class="card-title">Boku no Hero Academia 6th Season</div>
+                        <div class="card-desc">
+                        menceritakan tentang Izuku Midoriya, seorang pelajar SMP yang lahir tanpa Quirk (kekuatan super) tetapi bercita-cita menjadi pahlawan. Pada My Hero Academia season 6, Hawks akan menyusup ke Paranormal Liberation Font dan akan mengetahui rencana jahat Tomura Shigaraki.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+        
+                  <div class="float-layout">
+                    <div class="card-image">
+                     <img src="img/anime/Goblin_Slayer_2nd_Season.jpeg">
+                      <div class="card">
+                        <div class="card-title">Goblin Slayer 2nd Season</div>
+                        <div class="card-desc">
+                          Di guild di perbatasan, seseorang telah mencapai prestasi langka: Mereka telah menjadi petualang peringkat Perak hanya dengan berburu goblin.
+                          Priestess, seorang petualang baru, bergabung dengan party pertamanya hanya untuk menemui bencana. Pria yang menyelamatkannya disebut Pembunuh Goblin.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="float-layout">
+                    <div class="card-image">
+                     <img src="img/anime/Yofukashi_no_Uta.jpeg">
+                      <div class="card">
+                        <div class="card-title">Yofukashi No Uta</div>
+                        <div class="card-desc">
+                        menceritakan tentang Kou Yamori merupakan anak laki-laki berusia 14 tahun kelas 2 SMP dan lumayan pintar akan tetapi merasa bosan dengan kehidupannya saat ini lalu berhenti bersekolah, suatu hari tidak bisa tidur lalu pergi keluar pada malam hari dan merasa jika malam hari itu sangat luar biasa menyenangkan dan sangat bebas serta sangat cocok untuknya.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
         </div>
     </div>
+      <!-- Link Script -->
+      <script src="script/collapsable.js"></script>
     <%- include('layouts/footer') %> 
 </body>
 </html>

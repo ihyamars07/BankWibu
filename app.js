@@ -11,6 +11,7 @@ app.use('/css', express.static(__dirname + 'public/css'))
 app.use('/img', express.static(__dirname + 'public/img'))
 app.use('/script', express.static(__dirname + 'public/script'))
 app.use('/data', express.static(__dirname + 'public/data'))
+app.use('/img/anime', express.static(__dirname + 'public/img/anime'))
 
 app.get('/', (req, res) => {
   res.render('index', {})
