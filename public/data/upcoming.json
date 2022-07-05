@@ -1,0 +1,47 @@
+[
+    {
+        "id":1,
+        "image":"https://cdn.myanimelist.net/images/anime/1632/110707.jpg",
+        "title":"Chainsaw Man"
+    },
+    {
+        "id":2,
+        "image":"https://cdn.myanimelist.net/images/anime/1502/124354.jpg",
+        "title":"Hataraku Maou-sama II"
+    },
+    {
+        "id":3,
+        "image":"https://cdn.myanimelist.net/images/anime/1406/104631.jpg",
+        "title":"Tate no Yuusha no Nariagari Season 3"
+    },
+    {
+        "id":4,
+        "image":"https://cdn.myanimelist.net/images/anime/1448/118899.jpg",
+        "title":"Mob Pyscho 100 III"
+    },
+    {
+        "id":5,
+        "image":"https://cdn.myanimelist.net/images/anime/1201/121657.jpg",
+        "title":"Boku no Hero Academia 6th Season"
+    },
+    {
+        "id":6,
+        "image":"https://cdn.myanimelist.net/images/anime/1864/122519.jpg",
+        "title":"Made in Abyss: Retsujitsu no Ougonkyou"
+    },
+    {
+        "id":7,
+        "image":"https://cdn.myanimelist.net/images/anime/1101/122343.jpg",
+        "title":"Shingeki no Kyojin: The Final Season - Kanketsu-hen"
+    },
+    {
+        "id":8,
+        "image":"https://cdn.myanimelist.net/images/anime/1180/120373.jpg",
+        "title":"Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka IV: Shin Shou - Meikyuu-hen"
+    },
+    {
+        "id":9,
+        "image":"https://cdn.myanimelist.net/images/anime/1488/122008.jpg",
+        "title":"Goblin Slayer 2nd Season"
+    }
+]

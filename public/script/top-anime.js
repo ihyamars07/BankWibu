@@ -32,7 +32,7 @@ async function createCardAnime() {
 
 async function createContentLeft() {
   let allbox = document.getElementById('content-left')
-  let dataAnime = await fetch('data/top-manga.json').then((data) => {
+  let dataAnime = await fetch('data/upcoming.json').then((data) => {
     return data.json()
   })
 

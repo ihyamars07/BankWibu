@@ -32,6 +32,10 @@ app.get('/login', (req, res) => {
   res.render('login', {})
 })
 
+app.get('/regis', (req, res) => {
+  res.render('register', {})
+})
+
 app.get('/seasonal-anime', (req, res) => {
   res.render('seasonal-anime', {})
 })
