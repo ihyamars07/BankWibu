@@ -11,8 +11,7 @@
     <link rel="stylesheet" href="css/nav.css">
     <link rel="stylesheet" href="css/footer.css">
 
-     <!-- Link JS -->
-     <script src="script/home.js"></script>
+     
 
 
 </head>
@@ -48,23 +47,11 @@
         </div>
         <div class="article">
             <h2>News</h2>
-            <div class="box-article">
-                <div id="slideshow-container">
-                    
-                    <a class="prev" onclick="plusSlides(-1)">❮</a>
-                    <a class="next" onclick="plusSlides(1)">❯</a>
-                    
-                </div>
-                <br>
-                <div style="text-align:center">
-                    <span class="dot" onclick="currentSlide(1)"></span> 
-                    <span class="dot" onclick="currentSlide(2)"></span> 
-                    <span class="dot" onclick="currentSlide(3)"></span> 
-                </div>
-            </div>
-            
-            <div class="box2">
-                
+              <div id="box-article">
+              <div class="caption-container">
+                <p id="caption"></p>
+              </div>
+              <div id="row"></div>
             </div>
         </div>
         <div class="sideRight">
@@ -93,6 +80,8 @@
             </table>
         </div>
     </div>
+    <!-- Link JS -->
+    <script src="script/home.js"></script>
     <%- include('layouts/footer') %>
     
    
