@@ -6,6 +6,7 @@ body {
   font-family: Verdana, sans-serif; 
 }
 
+
 .container {
   display: flex;
   justify-content: space-between;
@@ -209,7 +210,7 @@ body {
 
  @media screen and (max-width: 1920px) {
   .content {margin-left: 55px;}
-  .sideLeft {height: 625px;}
+  .sideLeft {height: 450px;}
   .sideLeft {top: 115px;}
   .content img {width: 250px;}
   .content img {height: 300px;}

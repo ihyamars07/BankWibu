@@ -38,7 +38,7 @@ async function createContentLeft() {
     return data.json()
   })
 
-  for (let i = 0; i < 3; i++) {
+  for (let i = 0; i < 6; i++) {
     let card = document.createElement('div')
     card.classList.add('content')
     card.innerHTML = `
