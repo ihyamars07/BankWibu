@@ -226,8 +226,3 @@ a.button:hover {
   .testbox {margin-bottom: 15px;}
   .testbox {margin-right: 50px;}
  }
-
- @media screen and (max-width: 1366px) {
-  .testbox {margin-top: 0px;}
-  .testbox {height: 100px;}
- }
