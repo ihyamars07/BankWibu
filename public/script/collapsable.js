@@ -5,5 +5,5 @@ function toggleNavLeft() {
   left.style.width = left.style.width === '20%' ? '0' : '20%'
   mainLeft.style.marginLeft = mainLeft.style.marginLeft === '20%' ? '0' : '20%'
   button.innerHTML =
-    button.innerHTML === 'chevron_right' ? ' chevron_left' : ' chevron_right'
+    button.innerHTML === 'chevron_left' ? 'chevron_right' : 'chevron_left'
 }
